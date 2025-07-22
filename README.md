@@ -1,12 +1,31 @@
-# React + Vite
+# 📬 On-Chain Message DApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based decentralised application (dApp) that lets users set and get messages stored on a smart contract using MetaMask.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Connects to Ethereum wallet using MetaMask
+- Allows users to **set** and **get** messages from a deployed smart contract
+- Prevents use of non-MetaMask wallets
+- Built with React and Ethers.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔧 Requirements
+
+- macOS
+- [Node.js & npm](https://nodejs.org/)
+- [MetaMask](https://metamask.io/) (browser extension)
+- [Foundry](https://book.getfoundry.sh/getting-started/installation) (optional – for smart contract development)
+
+---
+
+## 📦 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+cd YOUR_REPO
